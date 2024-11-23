@@ -1,0 +1,164 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #212d74;
+}
+
+/* Header Styles */
+header {
+    background-color: #d1c0c0;
+    color: #3877c9;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #5dce83;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Home Section */
+#home {
+    background: #1f8bd8;
+    color: #d81212;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+
+#home p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    background: #dff048;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+#projects {
+    background: #1ba7ca;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.project-details h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project-details p {
+    font-size: 1.1em;
+    color: #bfdb59;
+}
+
+/* Contact Section */
+#contact {
+    background: #2e0acf;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #ce0ace;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #ca4d81;
+    color: #ca5e5e;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #99a9b4;
+}
+
+/* Footer Section */
+footer {
+    background: #5e4cad;
+    color: #c96060;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
